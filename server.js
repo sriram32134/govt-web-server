@@ -13,9 +13,10 @@ const app = express();
 app.use(cors({
   origin: [
     "http://localhost:5173",
-    "https://YOUR_FRONTEND_URL.vercel.app" // we’ll update later
-  ]
+    "https://govt-web-client.vercel.app"
+  ],
 }));
+
 
 app.use(express.json());
 
