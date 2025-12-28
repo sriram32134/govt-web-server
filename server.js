@@ -10,8 +10,6 @@ const complaintRoutes = require("./routes/complaintRoutes");
 
 const app = express();
 
-const cors = require("cors");
-
 app.use(cors({
   origin: [
     "http://localhost:5173",
